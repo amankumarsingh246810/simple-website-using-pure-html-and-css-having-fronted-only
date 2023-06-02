@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singh's Fitness Gym</title>
+</head>
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Playball?query=bal">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: playball, cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://images.pexels.com/photos/1431282/pexels-photo-1431282.jpeg?auto=compress&cs=tinysrgb&w=1000');
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-image-width: 1200px;
+        border-image: auto;
+
+    }
+
+    .left {
+        /* border: 2px solid green; */
+        display: inline-block;
+        width: 100px;
+
+
+    }
+
+    .left img {
+        width: 100px;
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        /* border: 2px solid rgb(168, 4, 4); */
+        display: block;
+        width: 800px;
+        margin-left: 200px;
+        margin-top: 0px;
+        color: white;
+
+
+
+
+
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        position: absolute;
+        display: inline-block;
+        right: 40px;
+        top: 0px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    a:active {
+        color: green;
+
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin-top: 10px;
+        padding: 4px 20px;
+        border-radius: 12px;
+        border: 4px solid black;
+        cursor: pointer;
+        font-family: playball, cursive;
+
+    }
+
+    .btn :hover {
+        background-color: blue;
+    }
+
+    .container {
+        border-width: 200px;
+        /* border: 2px solid rgb(23, 138, 192); */
+        color: aqua;
+
+    }
+
+    .form-group {
+        display: block;
+        width: 34px;
+        font-size: larger;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="gym.jpg" alt="">
+
+
+            <div>Singh Fitness</div>
+
+
+
+
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+
+
+            <ul class="navbar">
+
+                <li><a href="#">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">FITNESS CALCULATOR</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn"> Call us now</button>
+            <button class="btn">Email us</button>
+
+
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1> Join best gym of Kanpur now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="your age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter your locality">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="your phone number">
+            </div>
+            <button class="btn">Submit now</button>
+
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
